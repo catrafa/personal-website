@@ -1,0 +1,87 @@
+#styles.css
+
+body {
+  background-color: rgba(231, 80, 91, 0.62);
+  font-family: "Montserrat", sans-serif;
+  color: rgb(37, 36, 36))
+}
+
+header {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+h1 {
+  color:rgb(47, 45, 45);
+  font-size: 24px;
+  margin: auto;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.age {
+  font-weight: lighter;
+}
+
+.profile-card {
+  background-color: rgba(249, 242, 242, 0.9);
+  border: 1px solid rgb(37, 36, 36);
+  margin: 20px auto 0px;
+  height: 470px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.gallery {
+  border-bottom: 1px solid rgb(37, 36, 36);
+}
+
+.profile-content {
+  color:rgb(47, 45, 45);
+  padding: 15px 15px
+}
+
+.profile-description {
+  margin: 35px 0px 0px;
+}
+
+.action-buttons {
+  padding: 0px 15px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.button-red {
+  background-color: #e7505b;
+  border-radius: 50%;
+}
+
+.button-green {
+  background-color: #92b97f;
+  border-radius: 50%;
+}
+
+.button-blue {
+  background-color: #4590cd;
+  border-radius: 50%;
+}# Exercise: Treasure Hunt
+
+Welcome to the treasure hunt!
+
+Find the `treasure` on the treasure-island (the folder) only by browsing the folders inside your
+terminal.
+
+- use `cd` to change directories
+- use `cd ..` to move out of the current folder
+- use `ls` to look what is in the current folder
+- use `cat` to see what is inside a markdown file
+- use `pwd` to see your current directory path
