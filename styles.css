@@ -1,0 +1,27 @@
+section {
+  background-color: aliceblue;
+}
+body {
+  box-sizing: content-box 2px;
+  background-color: aqua;
+}
+header {
+  flex: auto;
+  background-color: powderblue;
+}
+nav {
+  box-sizing: content-box;
+  background-attachment: fixed;
+  border-style: groove;
+  background-color: skyblue;
+  bottom: auto;
+}
+main {
+  box-shadow: inset;
+  background-color: turquoise
+}
+footer {
+  display: block;
+  background: fixed;
+  background-color: aquamarine;
+}
